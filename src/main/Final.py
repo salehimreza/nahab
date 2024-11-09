@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 
-final_nahab = pd.read_csv(r'C:\Users\Dps\Desktop\Review\csvFile\finalRecord\finaOutput.csv')
+final_nahab = pd.read_csv(r'finaOutput.csv')
 
 # رسم نمودار countplot برای بررسی توزیع کد تراکنش بر اساس وضعیت استعلام
 plt.figure(figsize=(12, 6))
